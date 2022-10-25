@@ -1,0 +1,19 @@
+node {
+    stage ('git clone') {
+	    git
+		
+	}
+    stage  (' maveen versin') {	
+	    sh  'mvn --versin'
+		
+	}
+	stage  ('maveen compile') {
+	    sh  'mvn complie'
+		
+	}
+	stage  (java versin) {
+	    sh 'java --versin) 
+		
+    }
+	
+}
